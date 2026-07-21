@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+.dark {
+  --ui-text-muted: var(--ui-color-neutral-300);
+}
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+
+  --color-green-50: #EFFDF5;
+  --color-green-100: #D9FBE8;
+  --color-green-200: #B3F5D1;
+  --color-green-300: #75EDAE;
+  --color-green-400: #00DC82;
+  --color-green-500: #00C16A;
+  --color-green-600: #00A155;
+  --color-green-700: #007F45;
+  --color-green-800: #016538;
+  --color-green-900: #0A5331;
+  --color-green-950: #052E16;
+}
+
+/* Card surfaces — pair with a p-* utility on the element. */
+@utility card {
+  @apply rounded-md border border-zinc-800 bg-zinc-900/40;
+}
+@utility card-subtle {
+  @apply rounded-md border border-zinc-800/80 bg-zinc-900/30;
+}
+@utility card-dashed {
+  @apply rounded-md border border-dashed border-zinc-800 bg-zinc-900/20;
+}
+@utility card-error {
+  @apply rounded-md border border-red-500/40 bg-red-500/10;
+}
+@utility card-trap {
+  @apply rounded-md border border-red-900/30 bg-red-950/10;
+}
+@utility card-warn {
+  @apply rounded-md border border-amber-900/30 bg-amber-950/10;
+}
+@utility card-good {
+  @apply rounded-md border border-green-900/30 bg-green-950/10;
+}
+@utility card-info {
+  @apply rounded-md border border-sky-900/30 bg-sky-950/10;
+}
+
+/* HUD panel — opaque surface with backdrop blur, used over telemetry visuals. */
+@utility panel {
+  @apply rounded-md border border-zinc-800 bg-zinc-900/80 backdrop-blur;
+}

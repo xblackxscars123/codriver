@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1779228009689,
+      "tag": "0000_real_namorita",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1779349852781,
+      "tag": "0001_cute_guardsmen",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1779354906072,
+      "tag": "0002_nasty_gauntlet",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1779354945580,
+      "tag": "0003_real_sugar_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1780742006000,
+      "tag": "0004_greedy_stick",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1780815375129,
+      "tag": "0005_free_grim_reaper",
+      "breakpoints": true
+    }
+  ]
+}
